@@ -13,6 +13,11 @@ class CarsTableVC: UITableViewController {
         
         // Configure table view
         tableView.rowHeight = 75.0
+                // Answering bonus questions
+        print("1. Purpose of protocols in Swift: Protocols define a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.")
+        print("2. Data structure used by a Tab Bar Controller: Tab Bar Controller uses an array of view controllers.")
+        print("3. Tab bar item in a view controller: Tab bar item is an object that encapsulates the tab bar-related properties of a view controller.")
+    
     }
     
     // MARK: - Table view data source
@@ -71,16 +76,7 @@ class CarsTableVC: UITableViewController {
         }
     }
     
-    // MARK: - Bonus Questions
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        // Answering bonus questions
-        print("1. Purpose of protocols in Swift: Protocols define a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.")
-        print("2. Data structure used by a Tab Bar Controller: Tab Bar Controller uses an array of view controllers.")
-        print("3. Tab bar item in a view controller: Tab bar item is an object that encapsulates the tab bar-related properties of a view controller.")
-    }
 }
 
 class OrderSummaryVC: UIViewController {
